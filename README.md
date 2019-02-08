@@ -12,7 +12,7 @@ Analyze data about pull request reviews
 
 ```
 **2019 week 2**
-              bajtos 30  ##############################
+              bajtos 33  #################################
             b-admike 8   ########
          raymondfeng 4   ####
             jannyHou 3   ###
@@ -23,30 +23,31 @@ Analyze data about pull request reviews
          JesusTheHun 1   #
 
 **2019 week 3**
-              bajtos 20  ####################
-         raymondfeng 6   ######
-            b-admike 3   ###
+              bajtos 26  ##########################
+         raymondfeng 15  ###############
+            b-admike 4   ####
          hacksparrow 3   ###
             jannyHou 2   ##
+         nabdelgadir 1   #
 
 **2019 week 4**
-              bajtos 10  ##########
-         raymondfeng 8   ########
+              bajtos 14  ##############
+         raymondfeng 10  ##########
             jannyHou 4   ####
               dhmlau 3   ###
              emonddr 3   ###
+         hacksparrow 3   ###
          nabdelgadir 2   ##
-         hacksparrow 2   ##
-            b-admike 1   #
+            b-admike 2   ##
 
 **2019 week 5**
-         raymondfeng 26  ##########################
-              bajtos 17  #################
-            b-admike 7   #######
+         raymondfeng 29  #############################
+              bajtos 21  #####################
+            b-admike 11  ###########
               dhmlau 3   ###
+         nabdelgadir 2   ##
             jannyHou 2   ##
          hacksparrow 2   ##
-         nabdelgadir 1   #
 ```
 
 ## License
