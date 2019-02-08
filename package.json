@@ -1,0 +1,30 @@
+{
+  "name": "pull-request-review-stats",
+  "version": "1.0.0",
+  "description": "Analyze data about pull request reviews",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajtos/pull-request-review-stats.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Pull",
+    "Request",
+    "Data",
+    "Stats",
+    "Statistics"
+  ],
+  "author": "Miroslav Bajtoš",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bajtos/pull-request-review-stats/issues"
+  },
+  "homepage": "https://github.com/bajtos/pull-request-review-stats#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

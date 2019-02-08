@@ -1,0 +1,24 @@
+{
+  repository(owner: "strongloop", name: "loopback-next") {
+    pullRequests(last: 100, orderBy: {field: UPDATED_AT, direction: ASC}) {
+      edges {
+        node {
+          url,
+          author {
+            login
+          },
+          reviews(last: 100) {
+            edges {
+              node {
+                submittedAt,
+                author {
+                  login,
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
