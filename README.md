@@ -1,12 +1,28 @@
 # pull-request-review-stats
 Analyze data about pull request reviews
 
+
+## Initial setup
+
+1. Create a personal access token as explained on GitHub docs:
+  [Creating a personal access token for the command line](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+
+    Grant the following permissions to the token:
+
+    ```
+    public_repo
+    read:user
+    ```
+
+2. Save the token to `.token.txt`
+
 ## Use
 
-1. Copy the GraphQL query from [lib/query.graphql](./lib/query.graphql).
-2. Run the query using [GitHub's GraphQL Explorer](https://developer.github.com/v4/explorer/)
-3. Copy the response and save it to [data.json](./data.json)
-4. Crunch the data - run `node .`
+Run the following command:
+
+```
+$ node .
+```
 
 ## Example output
 
